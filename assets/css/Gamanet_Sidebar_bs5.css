@@ -48,10 +48,6 @@ a:hover {
   color: #f48220;
 }
 
-.list-sidebar li a.active:before, .list-sidebar li a:hover:before {
-  background: #f48220;
-}
-
 .list-sidebar li a:hover:before {
   display: none;
 }
@@ -98,14 +94,40 @@ a:hover {
 
 @media (max-width: 768px) {
   .sidebar {
-    width: 3.125rem;
-    z-index: 9;
+    /*width: 3.125rem;*/
+    /*z-index: 9;*/
   }
 }
 
 @media (max-width: 768px) {
   .list-sidebar {
     margin-bottom: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  #mainNav {
+    max-height: 40px;
+    height: 83px;
+  }
+}
+
+@media (min-width: 768px) {
+  #mainNav {
+    max-height: 25px;
+    height: 83px;
+  }
+}
+
+@media (max-width: 576px) {
+  #logo {
+    margin-top: -8px;
+  }
+}
+
+@media (min-width: 992px) {
+  #logo {
+    /*margin-top: -8px;*/
   }
 }
 
