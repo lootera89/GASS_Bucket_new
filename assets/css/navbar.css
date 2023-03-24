@@ -1,0 +1,26 @@
+@media (min-width: 992px) {
+  #mainNav .nav-link.active {
+    outline: none;
+    background-color: rgba(140,140,140,0.25);
+  }
+}
+
+@media (min-width: 992px) {
+  a:focus, a:hover {
+    /*text-decoration: none;*/
+    /*color: #00ffa0;*/
+    background-color: rgba(140,140,140,0.25);
+  }
+}
+
+@media (min-width: 768px) {
+  #navbarResponsive {
+  }
+}
+
+@media (max-width: 767px) {
+  #navbarResponsive {
+    font-size: 0px;
+  }
+}
+

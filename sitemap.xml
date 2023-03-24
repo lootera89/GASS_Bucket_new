@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://github.com/Lootera89/GamersAssemble_WEB-Bucket/find-games.html</loc>
+        <loc>/find-games.html</loc>
     </url>
     <url>
-        <loc>https://github.com/Lootera89/GamersAssemble_WEB-Bucket/</loc>
+        <loc>/</loc>
     </url>
     <url>
-        <loc>https://github.com/Lootera89/GamersAssemble_WEB-Bucket/walkthroughs.html</loc>
+        <loc>/nsfw.html</loc>
+    </url>
+    <url>
+        <loc>/walkthroughs.html</loc>
     </url>
 </urlset>

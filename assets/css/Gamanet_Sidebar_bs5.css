@@ -4,10 +4,6 @@ ul {
   padding-left: 0;
 }
 
-a:hover {
-  text-decoration: none;
-}
-
 .list-sidebar li a {
   display: inline-block;
   width: 100%;
@@ -114,7 +110,7 @@ a:hover {
 
 @media (min-width: 768px) {
   #mainNav {
-    max-height: 25px;
+    max-height: 39px;
     height: 83px;
   }
 }
@@ -122,6 +118,7 @@ a:hover {
 @media (max-width: 576px) {
   #logo {
     margin-top: -8px;
+    padding-left: 142px;
   }
 }
 
@@ -129,5 +126,9 @@ a:hover {
   #logo {
     /*margin-top: -8px;*/
   }
+}
+
+#nsfw_tab {
+  color: #ed0000;
 }
 
