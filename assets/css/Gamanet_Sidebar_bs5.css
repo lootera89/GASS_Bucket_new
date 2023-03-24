@@ -103,8 +103,8 @@ ul {
 
 @media (max-width: 576px) {
   #mainNav {
-    max-height: 40px;
-    height: 83px;
+    max-height: 35px;
+    height: 39px;
   }
 }
 
@@ -117,8 +117,8 @@ ul {
 
 @media (max-width: 576px) {
   #logo {
-    margin-top: -8px;
     padding-left: 142px;
+    margin-top: 0px;
   }
 }
 
