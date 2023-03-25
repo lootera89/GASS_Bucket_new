@@ -265,3 +265,13 @@ span {
   background: rgba(0,0,0,0.11);
 }
 
+@media (max-width: 400px) {
+  #roau {
+    margin-top: -101px;
+  }
+}
+
+.overlay.black {
+  overflow-x: hidden;
+}
+
