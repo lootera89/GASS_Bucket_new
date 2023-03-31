@@ -65,3 +65,16 @@
   cursor: pointer;
 }
 
+#article_card_effects .col {
+  height: 200px;
+  width: 100%;
+  background-image: url('../../assets/img/modi_ji_headset.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
