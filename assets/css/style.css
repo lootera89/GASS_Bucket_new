@@ -6,7 +6,7 @@
 :root {
   --bg-color: #13131f;
   --bg-color-2: #101214;
-  --text-color: #acacac;
+  /*--text-color: #acacac;*/
 }
 
 /* --====== CSS Reset ======-- */
@@ -23,7 +23,7 @@ html {
 
 body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: var(--bg-color);
+  background-color: #101417;
   color: var(--text-color);
 }
 
@@ -39,7 +39,7 @@ body {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: #e5e5e5;
 }
 
 ul {
@@ -108,17 +108,38 @@ ul {
 
 /* ---- Sidebar-Toggler ---- */
 
-.sidebar_toggler {
-  position: fixed;
-  top: 4vh;
-  right: 3vw;
-  width: 1.75rem;
-  height: 1.3rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  cursor: pointer;
-  overflow: hidden;
+@media (min-width: 768px) {
+  .sidebar_toggler {
+    position: static;
+    top: 4vh;
+    right: 3vw;
+    /*z-index: 9999;*/
+    width: 1.75rem;
+    height: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    overflow: hidden;
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .sidebar_toggler {
+    position: fixed;
+    top: 1vh;
+    right: 3vw;
+    /*z-index: 999;*/
+    width: 1.75rem;
+    height: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: -1px;
+  }
 }
 
 .sidebar_toggler span {

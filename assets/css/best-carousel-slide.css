@@ -10,7 +10,7 @@ div.jumbotron.carousel-hero {
 }
 
 div.jumbotron.hero-nature {
-  background: url("../../assets/img/ss_0596bac955340495562f3ff2538756ebd9a7f073.1920x1080.jpg") top / cover no-repeat;
+  background: url("../../assets/img/ss_0596bac955340495562f3ff2538756ebd9a7f073.1920x1080.jpg") bottom / cover no-repeat;
 }
 
 div.jumbotron.hero-photography {
@@ -18,11 +18,11 @@ div.jumbotron.hero-photography {
 }
 
 div.jumbotron.hero-technology-1 {
-  background: url("../../assets/img/Stray-Wallpaper-Hd.jpg") top / cover no-repeat;
+  background: url("../../assets/img/Stray-Wallpaper-Hd.jpg") bottom / cover no-repeat;
 }
 
 div.jumbotron.hero-technology {
-  background: url("../../assets/img/opera_Q7A9QcMtbk.png") top / cover no-repeat;
+  background: url("../../assets/img/opera_Q7A9QcMtbk.png") bottom / cover no-repeat;
 }
 
 p.hero-subtitle {
@@ -260,7 +260,7 @@ span {
 }
 
 @media (min-width: 768px) {
-  h2 {
+  #main_page_heading_2 {
     padding-top: 0px;
     margin-bottom: 11px;
     font-size: 37.4px;
@@ -268,11 +268,13 @@ span {
     height: auto;
     width: 100%;
     margin-top: -4px;
+    color: var(--bs-white);
+    background: linear-gradient(1deg, #080a0b, #22272c 100%), #101214;
   }
 }
 
 @media (min-width: 1200px) {
-  h2 {
+  #main_page_heading_2 {
     padding-top: 0px;
     margin-bottom: 14px;
     font-size: 37.4px;
@@ -280,24 +282,26 @@ span {
     height: auto;
     width: 100%;
     margin-top: -4px;
+    color: var(--bs-white);
+    background: linear-gradient(1deg, #080a0b, #22272c 100%), #101214;
   }
 }
 
 @media (max-width: 767px) {
-  h2 {
+  #main_page_heading_2 {
     padding-top: 0px;
     margin-bottom: 11px;
-    font-size: 25px;
+    font-size: 23px;
     background: var(--bs-black);
     height: auto;
     width: 100%;
     margin-top: -4px;
+    color: var(--bs-white);
+    background: linear-gradient(1deg, #080a0b, #22272c 100%), #101214;
   }
 }
 
 h2 {
-  color: var(--bs-primary);
-  background: linear-gradient(82deg, #060607, #181b1e 100%), #101214;
 }
 
 .card-body {
@@ -368,5 +372,9 @@ h2 {
 }
 
 #sidebaar {
+}
+
+.main-paragraph {
+  padding: 28px;
 }
 

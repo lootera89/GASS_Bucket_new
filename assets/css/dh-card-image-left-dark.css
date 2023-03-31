@@ -17,11 +17,10 @@
 }
 
 .photo-background {
-  background-position: center;
-  background-size: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   min-height: 250px;
+  background: url("../../assets/img/20230325_214825.jpg") center / cover;
 }
 
 @media screen and (min-width: 700px) {
@@ -31,6 +30,7 @@
     border-bottom-left-radius: 10px;
     /*min-height: none;*/
     width: 50%;
+    background: url("../../assets/img/20230325_214825.jpg") center / cover;
   }
 }
 

@@ -88,11 +88,11 @@
 }
 
 #myFooter .fa-google-plus:hover {
-  color: red;
+  color: #403dae;
 }
 
 #myFooter .fa-google-plus:focus {
-  color: red;
+  color: #403dae;
 }
 
 #myFooter .fa-twitter:hover {

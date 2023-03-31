@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://www.gamersassemble.tech/find-games.html</loc>
+        <loc>https://www.gamersassemble.tech/article/Future_of_Online_Gaming_in_India.html</loc>
     </url>
     <url>
-        <loc>https://www.gamersassemble.tech/google62e8861f449df8c5.html</loc>
+        <loc>https://www.gamersassemble.tech/article.html</loc>
+    </url>
+    <url>
+        <loc>https://www.gamersassemble.tech/blog-boilerplate.html</loc>
+    </url>
+    <url>
+        <loc>https://www.gamersassemble.tech/find-games.html</loc>
     </url>
     <url>
         <loc>https://www.gamersassemble.tech/</loc>
     </url>
     <url>
-        <loc>https://www.gamersassemble.tech/index-1.html</loc>
+        <loc>https://www.gamersassemble.tech/news.html</loc>
     </url>
     <url>
         <loc>https://www.gamersassemble.tech/nsfw.html</loc>
     </url>
     <url>
-        <loc>https://www.gamersassemble.tech/walkthroughs.html</loc>
+        <loc>https://www.gamersassemble.tech/review.html</loc>
     </url>
 </urlset>
