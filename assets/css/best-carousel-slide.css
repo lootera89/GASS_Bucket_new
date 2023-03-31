@@ -10,19 +10,19 @@ div.jumbotron.carousel-hero {
 }
 
 div.jumbotron.hero-nature {
-  background: url("../../assets/img/ss_0596bac955340495562f3ff2538756ebd9a7f073.1920x1080.jpg") bottom / cover no-repeat;
+  background: url("../../assets/img/home_assets/ss_0596bac955340495562f3ff2538756ebd9a7f073.1920x1080.jpg") bottom / cover no-repeat;
 }
 
 div.jumbotron.hero-photography {
-  background: url("../../assets/img/hogwards.jpg") top / cover no-repeat;
+  background: url("../../assets/img/home_assets/hogwards.jpg") top / cover no-repeat;
 }
 
 div.jumbotron.hero-technology-1 {
-  background: url("../../assets/img/Stray-Wallpaper-Hd.jpg") bottom / cover no-repeat;
+  background: url("../../assets/img/home_assets/Stray-Wallpaper-Hd.jpg") bottom / cover no-repeat;
 }
 
 div.jumbotron.hero-technology {
-  background: url("../../assets/img/opera_Q7A9QcMtbk.png") bottom / cover no-repeat;
+  background: url("../../assets/img/home_assets/opera_Q7A9QcMtbk.png") bottom / cover no-repeat;
 }
 
 p.hero-subtitle {
